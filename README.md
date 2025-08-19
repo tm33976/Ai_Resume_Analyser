@@ -1,87 +1,133 @@
-# Welcome to React Router!
 
-A modern, production-ready template for building full-stack React applications using React Router.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🚀 **Project Title & Tagline**
+-------------------------
 
-## Features
+**Project Title:** Ai_Resume_Builder
+**Tagline:** A React-based application for tracking your Applications & resume ratings.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+📖 **Description**
+----------------
+Ai_Resume_Builder is a React + TypeScript application that helps users optimize their resumes with AI-powered insights. The app is built using Vite for a fast development experience, React (with TypeScript) for type-safe and scalable UI, and Puter.js for seamless file handling and storage.
 
-## Getting Started
+With Ai_Resume_Builder, users can upload their resumes and instantly see:
 
-### Installation
+ATS (Applicant Tracking System) Score – showing how well the resume aligns with a given job description (JD).
 
-Install the dependencies:
+Detailed Ratings & Feedback – highlighting strengths, weaknesses, and areas for improvement.
 
-```bash
-npm install
-```
+Job Description Matching – insights into keywords and requirements missing from the resume.
 
-### Development
 
-Start the development server with HMR:
+✨ **Features**
+----------------
 
-```bash
-npm run dev
-```
+* Resume Upload & Management with Puter.js integration.
 
-Your application will be available at `http://localhost:5173`.
+* AI-Powered Analysis of resumes against any JD.
 
-## Building for Production
+* Instant Feedback & Suggestions to improve hiring chances.
 
-Create a production build:
+* Interactive Dashboard for clear, actionable results.
 
-```bash
-npm run build
-```
+* Built with TypeScript for scalability and maintainability.
 
-## Deployment
+🧰 **Tech Stack**
+-----------------
 
-### Docker Deployment
+### Frontend
 
-To build and run using Docker:
+* React: A JavaScript library for building user interfaces
+* Vite: A modern web development tool for building fast and efficient web applications
+* Tailwind CSS: A utility-first CSS framework for styling web applications
+* React Router: A client-side routing library for building web applications
 
-```bash
-docker build -t my-app .
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+### Tools
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+* PDF.js: A JavaScript library for generating and manipulating PDF files
+* Zustand: A state management library for building web applications
+* clsx: A utility library for styling web applications
 
-### DIY Deployment
+📁 **Project Structure**
+------------------------
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+The project structure is as follows:
 
-Make sure to deploy the output of `npm run build`
+* `src`: The source code for the application
+    + `components`: React components for the application
+    + `containers`: Higher-order components for the application
+    + `utils`: Utility functions for the application
+    + `styles`: CSS styles for the application
+* `public`: Static files for the application
+    + `index.html`: The main HTML file for the application
+* `package.json`: The project configuration file
+* `README.md`: This file!
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+⚙️ **How to Run**
+-----------------
 
-## Styling
+### Setup
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+1. Clone the repository: `git clone https://github.com/your-username/vite-react-pdf-resume.git`
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open the application in a web browser: `http://localhost:3000`
 
----
+### Environment
 
-Built with ❤️ using React Router.
+The application uses the following environment variables:
+
+* `VITE_API_URL`: The URL for the API
+* `VITE_MONGO_URI`: The URI for the MongoDB database
+
+### Build
+
+The application can be built by running the following command: `npm run build`
+
+### Deploy
+
+The application can be deployed by running the following command: `npm run deploy`
+
+🧪 **Testing Instructions**
+-------------------------
+
+The application uses Jest and Enzyme for testing. To run the tests, follow these steps:
+
+1. Install the dependencies: `npm install`
+2. Run the tests: `npm test`
+
+📸 **Screenshots**
+-----------------
+
+Here are some screenshots of the application:
+
+
+
+![Demo Screenshot](public/images/Demo.png)
+
+
+
+📦 **API Reference**
+------------------
+
+The application uses the following API endpoints:
+
+* `GET /api/resumes`: Retrieves a list of resumes
+* `GET /api/resumes/:id`: Retrieves a single resume by ID
+* `POST /api/resumes`: Creates a new resume
+* `PUT /api/resumes/:id`: Updates a single resume by ID
+* `DELETE /api/resumes/:id`: Deletes a single resume by ID
+
+👤 **Author**
+-------------
+
+This project was created by [Tushar Mishra](https://github.com/tm33976/Ai_Resume_Builder).
+
+📝 **License**
+-------------
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+I hope this README.md file meets your requirements! Let me know if you have any further requests. 😊
