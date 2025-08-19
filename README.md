@@ -6,7 +6,7 @@
 **Project Title:** Ai_Resume_Builder
 **Tagline:** A React-based application for tracking your Applications & resume ratings.
 
-** ▶️▶️▶️ [Live Demo](https://vite-project-eta-eight.vercel.app/)**
+**▶️▶️▶️** [Live Demo](https://vite-project-eta-eight.vercel.app/)
 
 
 📖 **Description**
