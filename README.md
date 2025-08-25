@@ -3,7 +3,7 @@
 🚀 **Project Title & Tagline**
 -------------------------
 
-**Project Title:** Ai_Resume_Builder
+**Project Title:** Ai_Resume_Analyser
 **Tagline:** A React-based application for tracking your Applications & resume ratings.
 
 **▶️▶️▶️** [Live Demo](https://vite-project-eta-eight.vercel.app/)
@@ -11,7 +11,7 @@
 
 📖 **Description**
 ----------------
-Ai_Resume_Builder is a React + TypeScript application that helps users optimize their resumes with AI-powered insights. The app is built using Vite for a fast development experience, React (with TypeScript) for type-safe and scalable UI, and Puter.js for seamless file handling and storage.
+Ai_Resume_Analyser is a React + TypeScript application that helps users optimize their resumes with AI-powered insights. The app is built using Vite for a fast development experience, React (with TypeScript) for type-safe and scalable UI, and Puter.js for seamless file handling and storage.
 
 With Ai_Resume_Builder, users can upload their resumes and instantly see:
 
