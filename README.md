@@ -73,7 +73,7 @@ The project structure is as follows:
 
 ### Setup
 
-1. Clone the repository: `git clone https://github.com/tm33976/vite-react-pdf-resume.git`
+1. Clone the repository: `https://github.com/tm33976/Ai_Resume_Analyser.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open the application in a web browser: `http://localhost:3000`
